@@ -1,0 +1,11 @@
+cat << 'EOF' > .gitignore
+# File kompilasi / biner
+mobil
+*.o
+*.out
+
+# File temporary editor/sistem
+*.swp
+*~
+.DS_Store
+EOF
